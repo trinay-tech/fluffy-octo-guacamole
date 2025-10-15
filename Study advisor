@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All in One Study Companion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>All in One Study Companion</h1>
+      <p>Your personal dashboard for smarter, organized learning.</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </header>
+
+  <section id="features">
+    <div class="container">
+      <h2>Core Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>📚 Smart Notes</h3>
+          <p>Organize and sync your study notes across devices.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🧠 Flashcards</h3>
+          <p>Create and review flashcards with spaced repetition.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📅 Study Planner</h3>
+          <p>Visualize your study schedule and set goals.</p>
+        </div>
+        <div class="feature-card">
+          <h3>✅ To-Do List</h3>
+          <p>Track assignments, deadlines, and daily tasks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>What Students Say</h2>
+      <blockquote>
+        “This app changed the way I study. Everything I need is in one place!”
+        <span>- Alex, University Student</span>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="cta">
+    <div class="container">
+      <h2>Start Studying Smarter</h2>
+      <p>Join thousands of students already using the All in One Study Companion.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 All in One Study Companion. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styling */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+h1, h2, h3 {
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background: linear-gradient(120deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+header .btn {
+  margin-top: 20px;
+  display: inline-block;
+  background: #fff;
+  color: #2575fc;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+#features h2,
+#testimonials h2,
+#cta h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+#testimonials blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+#testimonials span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#cta {
+  background: #2575fc;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#cta .btn {
+  margin-top: 20px;
+  background: white;
+  color: #2575fc;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #eee;
+  font-size: 0.9rem;
+  color: #666;
+}
